@@ -1,0 +1,97 @@
+/* css reset */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* color classes */
+.red{
+	background-color: #EF1038;
+}
+.orange{
+	background-color: #F35F24;
+}
+.yellow{
+	background-color: #B7FE3B;
+}
+.green{
+	background-color: #46FE3A;
+}
+.cyan{
+	background-color: #8DC0E5;
+}
+.blue{
+	background-color: #0000D5;
+}
+.purple{
+	background-color: #6118B0;
+}
+.pink{
+	background-color: #F01D89;
+}
+.black{
+	background-color: #1B201E;
+}
+.bpink{
+	background-color: #E1C2DC;
+}
+
+
+/* Hover */
+.red:hover{
+	background-color: black;
+}
+.orange:hover{
+	background-color: pink;
+}
+.yellow:hover{
+	background-color: purple;
+}
+.green:hover{
+	background-color: blue;
+}
+.blue:hover{
+	background-color: green;
+}
+.purple:hover{
+	background-color: yellow;
+}
+.pink:hover{
+	background-color: orange;
+}
+.black:hover{
+	background-color: whitesmoke;
+}
+.cyan:hover{
+	background-color: darkgreen;
+}
+.bpink:hover{
+	background-color:brown ;
+}
+#canvas{
+	width: 68.4vw;
+	height: 45.5vw;
+	background-color: darkred;
+	
+}
+section{
+	width: 16.66666666666667%;
+	height: 100%;
+	float: left;
+}
+article{
+	width: 60%;
+	height: 80%;
+	margin-top: 41%;
+	margin-left: 20%;
+	float: left;
+}
+figure{
+	width: 18%;
+	height: 97.5%;
+	margin-top: 7%;
+	margin-left: 5.5%;
+	float: left;
+}
+
+

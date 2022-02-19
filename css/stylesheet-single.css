@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+header,section{
+	width: 100vw;
+	height: 100vh;
+}
+
+Nav{
+	position: fixed;
+	top: 45vh;
+	right: 5vw;
+}
+
+ul{
+	list-style-type: none;
+}
+
+figure{
+	width: 2vw;
+	height: 2vw;
+	border: 0.2vw solid white;
+	background-color: black;
+	border-radius: 50%;
+	margin-bottom: 1vw;
+}
+	figure:hover{
+		border-color: black;
+	}
+/* css color classes */
+
+.red{
+	background-color: red;
+}
+.yellow{
+	background-color: yellow;
+}
+.orange{
+	background-color: orange;
+}
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.purple{
+	background-color: purple;
+}

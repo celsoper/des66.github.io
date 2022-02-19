@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+html{
+	height: 1000vh;
+}
+	#figure-one{
+		left: 10vw;
+	}
+	#figure-two{
+		left: 20vw;
+	}
+	#figure-three{
+		left: 30vw;
+	}
+	#figure-four{
+		left: 40vw;
+	}
+figure{
+	position: fixed;
+	display: inline-block;
+	width: 8vw;
+	height: 4vw;
+	top: 10vh;
+	padding-top: 4vw;
+	margin-left: 2vw;
+	border-radius: 50%;
+	text-align: center;
+}
+.red{
+	background-color: red;
+}
+.orange{
+	background-color: orange;
+}
+.yellow{
+	background-color: yellow;
+}
+.green{
+	background-color: green;
+}

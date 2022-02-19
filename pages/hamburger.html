@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation Side-Drawer</title>
+	<link rel="stylesheet" type="text/css" href="../css/hamburger-ss.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button#hamburger-icon").click(function(){
+				$("nav").toggleClass("slide-the-drawer");
+			});
+		});
+	</script>
+</head>
+<body>
+	<body>
+		<button id="hamburger-icon">&#9776;</button>
+		<nav>
+			<ul>
+				<li><a href="#section-one">Red</a> </li>
+				<li><a href="#section-two">Orange</a> </li>
+				<li><a href="#section-three">Yellow</a> </li>
+				<li><a href="#section-four">Green</a> </li>
+				<li><a href="#section-five">Cyan</a> </li>
+				<li><a href="#section-six">Blue</a> </li>
+				<li><a href="#section-seven">Purple</a> </li>
+				<li><a href="#section-eight">Magenta</a> </li>
+			</ul>
+		</nav>
+
+		<section  id="section-one" class="red"></section>
+		<section  id="section-two" class="orange"></section>
+		<section  id="section-three" class="yellow"></section>
+		<section  id="section-four" class="green"></section>
+		<section  id="section-five" class="cyan"></section>
+		<section  id="section-six" class="blue"></section>
+		<section  id="section-seven" class="purple"></section>
+		<section  id="section-eight" class="magenta"></section>
+	</body>
+</body>
+</html>

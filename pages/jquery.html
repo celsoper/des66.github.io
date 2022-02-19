@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jquery Work File</title>
+
+	<style type="text/css">
+		.red{
+			background-color: #f00;
+		}
+		.blue{
+			background-color: #00f;
+		}
+		.green{
+			background-color: #0f0;
+		}
+	</style>
+
+	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+
+			$("button#hamburger-icon").click(function(){
+				$("nav").toggle();
+			});
+
+			$("button#change-background-color-to-green").
+				click(function(){
+					$("body").addClass("green").removeClass("red").removeClass("blue");
+			});
+
+			$("button#change-background-color-to-red").
+				click(function(){
+					$("body").addClass("red").removeClass("green").removeClass("blue");
+			});
+
+			$("button#change-background-color-to-blue").
+				click(function(){
+					$("body").addClass("blue").removeClass("red").removeClass("green");
+			});
+		});
+		
+	</script>
+</head>
+<body>
+	<button id="hamburger-icon">≡</button>
+	<button id="change-background-color-to-green">Click me to change the background color to Green!</button>
+	<button id="change-background-color-to-red">Click me to change the background color to Red!</button>
+	<button id="change-background-color-to-blue">Click me to change the background color to Blue!</button>
+	<h1>JQuery Is Awesome!</h1>
+	<nav>
+		<ul>
+			<li> <a href="google.com">Link</a>  </li>
+		</ul>
+	</nav>
+</body>
+</html>

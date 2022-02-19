@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#canvas{
+	width: 66.65vw;
+	height: 80.2vw;
+	background-color:#D2D2D2 ;
+}
+#one{
+	width: .861%;
+	height: 87.6%;
+	margin-left: 4.15%;
+	margin-top: 3%;
+	float: left;
+}
+section{
+	width: .86%;
+	height: 87.6%;
+	margin-top: 3%;
+	float: left;
+}
+.bblue{
+	background-color: #768BB6;
+}
+.cyan{
+	background-color: #6295AA;
+}
+.orange{
+	background-color: #C29456;
+}
+.spink{
+	background-color: #B9755E;
+}
+.black{
+	background-color: #303738;
+}
+.bblue:hover{
+	background-color: dimgrey;
+}
+.cyan:hover{
+	background-color: rebeccapurple;
+}
+.orange:hover{
+	background-color: paleturquoise;
+}
+.spink:hover{
+	background-color: darkgreen;
+}
+.black:hover{
+	background-color: lightyellow;
+}
+#canvas:hover{
+	background-color: black;
+}

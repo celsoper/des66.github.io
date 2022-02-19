@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.logo{
+    width: 15vw;
+    height: 20vh;
+
+}
+nav ul{
+    float: right;
+    margin-right: 0px;
+    margin-top: 100px;
+    z-index: 9999;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(12, 11, 11);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+nav a{
+    color: black;
+    padding: 3px 13px;
+}
+    li a:hover{
+        text-decoration: underline;
+    }
+a.active,a:hover{
+    background-color: #f3dbd752;
+    transition: .5s;
+}    
+.order1{
+    color: red;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 16px;
+        padding-left: 50px;
+    }
+        nav ul li a{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        top: 80px;
+        left: -100%;
+        transition: all.5s;
+        background-color: #ffffff;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background:none;
+        background-color: rgb(226, 30, 30);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .logo{
+        width: 28vw;
+        height: 25vh;
+        margin-left: 70px;
+    }
+}
+@media(max-width: 600px){
+    .logo{
+        margin: auto;
+        
+    }
+}
+
+
+body{
+    top: 60px;
+}
+.container{
+    max-width: 1200px;
+    margin: 10em auto auto auto;
+    padding:  1.5em;
+
+}
+
+.menu{
+    font-size: 14px;
+     
+}
+
+.menu-group-heading{
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+}
+.menu-group{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.menu-item{
+    display: flex;
+}
+
+.menu-item-image{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+.menu-item-text{
+    flex-grow: 1;
+}
+
+.menu-item-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu-item-name{
+    margin-right: 1.5em;
+}
+
+.menu-item-description{
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 992px){
+    .menu{
+        font-size: 16px;
+
+    }
+    .menu-group{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu-item-image{
+        width: 125px;
+        height: 125px;
+    }
+}
+
+footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    margin-top: 20%;
+    
+}
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+    margin-right: 10%;
+}
+.inner_footer .map{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+.inner_footer .map img{
+    width: 80%;
+    height: auto;
+}
+.inner_footer .footer_third{
+    width: calc(21.666667 - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+.inner_footer .footer_third:last-child{
+    margin-right: 0;
+}
+.inner_footer .footer_third h1{
+    font-size: 22px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.inner_footer .footer_third a{
+    font-size: 18px;
+    color: black;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+
+}
+.inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+@media(max-width: 600px){
+    footer .inner_footer{
+        width: 90%;
+    }
+    .inner_footer .map
+    .inner_footer .footer_third{
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+}

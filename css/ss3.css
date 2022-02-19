@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#canvas{
+	width: 104.2vw;
+	height: 77.2vw;
+	background-color:#E0E1DB ;
+}
+section{
+	width: 96.8%;
+	height: 96.3%;
+	margin-left: 1.4%;
+	margin-top: 1.5%;
+	float: left;
+}
+#b1{
+	width: 7.1%;
+	height:100%;
+	margin-left: 5%;
+	float: left;
+}
+#b2{
+	width: 4.6%;
+	height: 45.3%;
+	float: left;
+}
+#b3{
+	width: 5.2%;
+	height: 54.7%;
+	float: left;
+	margin-top: 33.35%;
+}
+#b4{
+	width: 5%;
+	height: 100%;
+	float: left;
+}
+#b5{
+	width: 5%;
+	height: 7.815%;
+	float: top;
+	margin-left: 26.8%;
+}
+#b6{
+	width: 5%;
+	height: 12.5%;
+	float: top;
+	margin-left: 26.8%;
+	margin-top: 9.2%;
+}
+#b7{
+	width: 5%;
+	height: 12.5%;
+	float: top;
+	margin-left: 26.8%;
+	margin-top: 9.3%;
+}
+#b8{
+	width: 5%;
+	height: 29.451%;
+	float: top;
+	margin-left: 26.8%;
+	margin-top: 9.3%;
+}
+.paper{
+	background-color:#F1ECD8 ;
+}
+.ink{
+	background-color:#252525 ;
+}
+.paper:hover{
+	background-color: darkred;
+}
+.ink:hover{
+	background-color: lightcyan;
+}

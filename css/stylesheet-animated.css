@@ -1,0 +1,66 @@
+@keyframes fade-in-one{
+	0% 		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-one{
+	0% 		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-one{
+	0% 		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-one{
+	0% 		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-one{
+	0% 		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-two{
+	0% 		{opacity: 0;}
+	50%		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-three{
+	0% 		{opacity: 0;}
+	67%		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-four{
+	0% 		{opacity: 0;}
+	75%		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+@keyframes fade-in-five{
+	0% 		{opacity: 0;}
+	80%		{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+
+
+.fade-in-one{
+	-ms-animation-name: fade-in-one;
+	animation-duration: .25s;
+}
+.fade-in-two{
+	animation-name: fade-in-two;
+	animation-duration: .5s;
+	
+}
+.fade-in-three{
+	animation-name: fade-in-three;
+	animation-duration: .75s;
+	
+}
+.fade-in-four{
+	animation-name: fade-in-four;
+	animation-duration: 1s;
+	
+}
+.fade-in-five{
+	animation-name: fade-in-five;
+	animation-duration: 1.25s;
+	
+}

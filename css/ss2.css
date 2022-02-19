@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#canvas{
+	width: 26.05vw;
+	height: 22.25vw;
+	background-color:#E6E8EA ;
+}
+#top{
+	width: 66.2%;
+	height: 48.5%;
+	margin-left: 16.25%;
+	margin-top: 5%;
+	float: left;	
+}
+#top2{
+	width: 75%;
+	height: 80%;
+	margin-left: 12%;
+	margin-top: 13%;
+	float: left;
+}
+#top3{
+	width: 66%;
+	height: 49%;
+	margin-left: 17%;
+	margin-top: 16.7%;
+	float: left;
+}
+#top4{
+	width: 94%;
+	height: 17%;
+	margin-left: 3%;
+	margin-top: 3.0%;
+	float: top;
+	display: grid;
+}
+#bottom{
+	width:65.87%;
+	height: 38.5%;
+	margin-left: 16.4%;
+	float: left;
+}
+#bottom2{
+	width: 62.2%;
+	height: 49.4%;
+	margin-left: 18.8%;
+	margin-top: 12.8%;
+	float: left;
+
+}
+figure{
+	width: 95%;
+	height: 16.4%;
+	margin-left: 2.5%;
+	margin-top: 2.6%;
+	float: top;
+	display: grid;
+}
+
+
+.yellow{
+	background-color:#F9FE00 ;
+}
+.red{
+	background-color:#A80B18 ;
+}
+.black{
+	background-color: #1C1C13;
+}
+.brown{
+	background-color:#FFAC00 ;
+}
+.blue{
+	background-color:#3F67C5 ;
+}
+.yellow:hover{
+	background-color: purple;
+}
+.black:hover{
+	background-color: lavenderblush;
+}
+.red:hover{
+	background-color: seagreen;
+}
+.brown:hover{
+	background-color: black;
+}
+.blue:hover{
+	background-color: pink;
+}
